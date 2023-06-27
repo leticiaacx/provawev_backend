@@ -2,8 +2,8 @@ var express = require('express');
 var router = express.Router();
 
 var user = {
-  email: "rodrigocoelho236@gmail.com",
-  password: "123456789"
+  email: "leticiapinheiro3137@gmail.com",
+  password: "1234877182"
 }
 
 router.get('/', function(req, res, next) {
