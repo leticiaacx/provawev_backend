@@ -1,6 +1,6 @@
 var mongoose = require("mongoose")
 
-var mongoDB_URI = "mongodb://0.0.0.0:27017/webt01"
+var mongoDB_URI = "mongodb://localhost:27017/webt01"
 mongoose.connect(mongoDB_URI, { useNewUrlParser: true })
 
 var db = mongoose.connection
